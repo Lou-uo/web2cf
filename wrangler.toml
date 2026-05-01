@@ -3,6 +3,7 @@ compatibility_date = "2024-01-01"
 compatibility_flags = [ "nodejs_compat" ]
 
 # Static site configuration
+main = "workers-site/index.js"
 [site]
 bucket = "./dist"
 
